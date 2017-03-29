@@ -1,0 +1,16 @@
+{
+	"ACTION": "CONTAIN",
+	"TARGET": {
+		"type": "openc2:device"
+	},
+	"ACTUATOR": {
+		"type": "endpoint",
+		"specifiers": {
+			"Address_Value": "192.168.110.100"
+		},
+		"MODIFIERS": {
+			"command_ref": 0,
+			"response": "acknowledge"
+		}
+	}
+}
