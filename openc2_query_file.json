@@ -1,0 +1,28 @@
+{
+	"ACTION": "QUERY",
+	"TARGET": {
+		"type": "openc2:file",
+		"specifiers": {
+			"FileName": "otaku.exe",
+			"FilePath": "c:\\temp\\oc2target\\otaku.exe",
+			"FileExtension": ".exe",
+			"SizeInBytes": "0",
+			"Hashes": {
+				"Hash": {
+					"type": "SHA256",
+					"Simple_Hash_Value": "bb7471e245d296ccd5d457ec2112875e4c7889e08ed3fa0755248e45cd2575ee"
+				}
+			}
+		}
+	},
+	"ACTUATOR": {
+		"type": "endpoint",
+		"specifiers": {
+			"Address_Value": "192.168.110.100"
+		},
+		"MODIFIERS": {
+			"context_ref": 0,
+			"response": "acknowledge"
+		}
+	}
+}
