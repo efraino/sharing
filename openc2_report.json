@@ -1,12 +1,12 @@
 {
-	"ACTION": "REPORT",
+	"action": "report",
 	"TARGET": {
 		"type": "openc2:data",
 		"specifiers": {
             "id": "814DEF9619B942CA9CD6BDC95E88199D"}
 	},
-	"Modifier": {
-		"report-to": {
+	"modifiers": {
+		"report_to": {
 				"Address_Value" : "127.0.0.1",
 				"port" : "8000",
 				"URI" : "/reponse"
