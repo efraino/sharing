@@ -1,6 +1,6 @@
 {
-	"ACTION": "QUERY",
-	"TARGET": {
+	"actin": "query",
+	"target": {
 		"type": "openc2:file",
 		"specifiers": {
 			"FileName": "otaku.exe",
@@ -15,13 +15,13 @@
 			}
 		}
 	},
-	"ACTUATOR": {
+	"actuator": {
 		"type": "endpoint",
 		"specifiers": {
 			"Address_Value": "192.168.110.100"
 		},
-		"MODIFIERS": {
-			"context_ref": 0,
+		"modifiers": {
+			"command_ref": 0,
 			"response": "acknowledge"
 		}
 	}
