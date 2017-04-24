@@ -1,7 +1,7 @@
 {
-	"ACTION": "RESPONSE",
-	"MODIFIERS": {
-		"command-ref": "942D84E91CE24B3790E1A24AC770A6F3" ,
+	"action": "response",
+	"modifiers": {
+		"command_ref": "942D84E91CE24B3790E1A24AC770A6F3" ,
 		"type": "acknowledgement“
 		}
 }
