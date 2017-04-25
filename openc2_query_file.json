@@ -1,5 +1,5 @@
 {
-	"actin": "query",
+	"action": "query",
 	"target": {
 		"type": "openc2:file",
 		"specifiers": {
