@@ -8,7 +8,7 @@
                 "specifiers": {
                         "Address_Value": "192.168.110.100"
                 },
-                "modifiersS": {
+                "modifiers": {
                         "command_ref": 0,
                         "response": "acknowledge"
                 }
